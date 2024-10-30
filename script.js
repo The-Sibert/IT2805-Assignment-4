@@ -35,11 +35,10 @@ displayBtn.addEventListener("click", changeDisplay)
 visibilityBtn.addEventListener("click", changeVisibility)
 resetBtn.addEventListener("click", reset)
 
-function changeDisplay(e){
-    
+function changeDisplay(){
     magic.style.display = "none"
 }
-function changeVisibility () {
+function changeVisibility(){
     magic.style.visibility = "hidden"
     magic.style.display = "block"
 }
