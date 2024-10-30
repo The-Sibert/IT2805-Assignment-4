@@ -46,6 +46,7 @@ function reset(){
     magic.style = null
 }
 /* Task 1.6 */
+let ul = document.getElementById("tech")
 const technologies = [
     'HTML5',
     'CSS3',
@@ -59,3 +60,9 @@ const technologies = [
     'Bootstrap',
     'Node.js'
 ];
+for (i = 0; i <= technologies.length; i++)
+{
+    let li = document.createElement("li")
+    li.innerText = technologies[i]
+    ul.appendChild(li)
+}
