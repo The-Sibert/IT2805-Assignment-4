@@ -65,4 +65,5 @@ for (i = 0; i <= technologies.length; i++)
     let li = document.createElement("li")
     li.innerText = technologies[i]
     ul.appendChild(li)
+    
 }
